@@ -18,7 +18,7 @@ const paths: Record<string, ReactNode> = {
   whatsapp: <><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z" /><path d="M9 9.5c.5 2.5 2.5 4.5 5 5l1.2-1.2-1.8-1-.9.7a4 4 0 0 1-1.8-1.8l.7-.9-1-1.8z" /></>,
   instagram: <><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" /></>,
   facebook: <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />,
-  pin: <><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z" /><circle cx="12" cy="9.5" r="2.5" /></>,
+  pin: google: <text x="12" y="17" textAnchor="middle" fontSize="17" fontWeight="700" fill="currentColor" stroke="none">G</text>,
   linkedin: <><rect x="3" y="9" width="4" height="12" /><circle cx="5" cy="4.5" r="2" /><path d="M10 9h3.6v1.8c.7-1.2 2-2.1 3.9-2.1 3.3 0 3.5 2.4 3.5 5.2V21h-4v-6c0-1.4-.3-2.5-1.7-2.5S14 13.7 14 15v6h-4z" /></>,
 };
 function Ico({ name, href, label, external }: { name: string; href: string; label: string; external?: boolean }) {
@@ -66,7 +66,7 @@ export function Footer() {
             {site.socials.Instagram && <Ico name="instagram" href={site.socials.Instagram} label="Visiting Medics on Instagram" external />}
             {site.socials.Facebook && <Ico name="facebook" href={site.socials.Facebook} label="Visiting Medics on Facebook" external />}
             {site.socials.LinkedIn && <Ico name="linkedin" href={site.socials.LinkedIn} label="Visiting Medics on LinkedIn" external />}
-            {site.maps && <Ico name="pin" href={site.maps} label="Visiting Medics on Google Maps" external />}
+            {site.maps && <Ico name="google" href={site.maps} label="Visiting Medics on Google Business Profile" external />}
           </div>
         </div>
         <div><h2>Services</h2><ul className="cols">{services.map((s) => <li key={s.slug}><Link href={`/${s.slug}`}>{s.name}</Link></li>)}</ul></div>
