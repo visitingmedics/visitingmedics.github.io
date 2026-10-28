@@ -11,8 +11,8 @@ export function meta(title: string, description: string, path: string): Metadata
 export const nav = [
   { name: "Services", href: "/services" },
   { name: "Service Areas", href: "/service-areas" },
-  { name: "How It Works", href: "/how-it-works" },
+  { name: "Care Plans", href: "/care-plans" },
+  { name: "Guides", href: "/guides" },
   { name: "About", href: "/about" },
-  { name: "FAQ", href: "/faq" },
   { name: "Contact", href: "/contact" },
 ];
