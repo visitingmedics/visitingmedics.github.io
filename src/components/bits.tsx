@@ -42,9 +42,9 @@ export function Faqs({ items, schema = true }: { items: Faq[]; schema?: boolean 
 export function CtaButtons() {
   return (
     <div className="actions">
-      <a className="btn btn-primary" href={waLink("Hello Visiting Medics, I would like to request a home visit.")}>WhatsApp Us</a>
+      <Link className="btn btn-primary" href="/contact">Book a Home Visit</Link>
       <a className="btn btn-outline" href={telLink}>Call Now</a>
-      <Link className="btn btn-quiet" href="/contact">Book a Home Visit</Link>
+      <a className="btn btn-outline" href={waLink("Hello Visiting Medics, I would like to request a home visit.")}>WhatsApp Us</a>
     </div>
   );
 }
@@ -56,10 +56,10 @@ export const Emergency = () => (
 );
 
 export const FinalCta = () => (
-  <section className="section cta on-dark">
+  <section className="section cta">
     <div className="container">
       <h2>Need care at home in Mumbai?</h2>
-      <p className="lead">Message us your area and what is needed. We confirm the visit with you.</p>
+      <p className="lead">Tell us what is needed and where you are. We will confirm the details with you.</p>
       <CtaButtons />
     </div>
   </section>
