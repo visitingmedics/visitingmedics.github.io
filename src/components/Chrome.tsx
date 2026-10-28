@@ -18,7 +18,7 @@ const paths: Record<string, ReactNode> = {
   whatsapp: <><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z" /><path d="M9 9.5c.5 2.5 2.5 4.5 5 5l1.2-1.2-1.8-1-.9.7a4 4 0 0 1-1.8-1.8l.7-.9-1-1.8z" /></>,
   instagram: <><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" /></>,
   facebook: <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />,
-  google: <text x="12" y="17" textAnchor="middle" fontSize="17" fontWeight="700" fill="currentColor" stroke="none">G</text>,
+  google: <><path d="M21.6 12.23c0-.71-.06-1.39-.18-2.05H12v3.87h5.38a4.6 4.6 0 0 1-2 3.02v2.51h3.23c1.89-1.74 2.99-4.3 2.99-7.35z" fill="#4285F4" stroke="none"/><path d="M12 22c2.7 0 4.96-.9 6.61-2.42l-3.23-2.51c-.9.6-2.04.96-3.38.96-2.6 0-4.8-1.75-5.59-4.1H3.08v2.59A10 10 0 0 0 12 22z" fill="#34A853" stroke="none"/><path d="M6.41 13.93a6 6 0 0 1 0-3.86V7.48H3.08a10 10 0 0 0 0 9.04z" fill="#FBBC05" stroke="none"/><path d="M12 5.97c1.47 0 2.79.5 3.82 1.5l2.86-2.86A9.56 9.56 0 0 0 12 2a10 10 0 0 0-8.92 5.48l3.33 2.59c.79-2.35 2.99-4.1 5.59-4.1z" fill="#EA4335" stroke="none"/></>,
   linkedin: <><rect x="3" y="9" width="4" height="12" /><circle cx="5" cy="4.5" r="2" /><path d="M10 9h3.6v1.8c.7-1.2 2-2.1 3.9-2.1 3.3 0 3.5 2.4 3.5 5.2V21h-4v-6c0-1.4-.3-2.5-1.7-2.5S14 13.7 14 15v6h-4z" /></>,
 };
 function Ico({ name, href, label, external }: { name: string; href: string; label: string; external?: boolean }) {
