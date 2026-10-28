@@ -15,9 +15,11 @@ export const site = {
   // Must describe your hero photo (public/images/hero.jpg) accurately.
   heroAlt: "A doctor checking an elderly man’s blood pressure at home with his daughter nearby",
   ogImage: "/og-image.png", // add a 1200x630 image to /public
+  // Google Business Profile link (used in the footer and in structured data).
+  maps: env.NEXT_PUBLIC_MAPS ?? "https://maps.app.goo.gl/S92r16Rx3VTynYus6",
   socials: {
     Instagram: env.NEXT_PUBLIC_INSTAGRAM ?? "https://www.instagram.com/visitingmedics/",
-    Facebook: env.NEXT_PUBLIC_FACEBOOK ?? "",
+    Facebook: env.NEXT_PUBLIC_FACEBOOK ?? "https://www.facebook.com/share/19dLVPrRex/",
     LinkedIn: env.NEXT_PUBLIC_LINKEDIN ?? "https://www.linkedin.com/company/visitingmedics/",
   } as Record<string, string>,
 };
@@ -29,6 +31,15 @@ export const areaGroups = [
 // North to south, used by the coverage map
 export const coverageRoute = ["Kandivali", "Malad", "Goregaon", "Jogeshwari", "Lokhandwala", "Andheri", "Juhu", "Vile Parle", "Santa Cruz", "Bandra", "Churchgate"];
 export const areas = areaGroups.flatMap((g) => g.areas);
+// The main localities, linked from the homepage and the footer to their own pages.
+export const popularAreas = [
+  { name: "Jogeshwari", slug: "jogeshwari-west" }, { name: "Andheri", slug: "andheri-west" },
+  { name: "Lokhandwala", slug: "lokhandwala-complex" }, { name: "Juhu", slug: "juhu" },
+  { name: "Vile Parle", slug: "vile-parle-west" }, { name: "Santa Cruz", slug: "santacruz-west" },
+  { name: "Bandra", slug: "bandra-west" }, { name: "Goregaon", slug: "goregaon-west" },
+  { name: "Malad", slug: "malad-west" }, { name: "Kandivali", slug: "kandivali-west" },
+  { name: "Borivali", slug: "borivali-west" }, { name: "Churchgate", slug: "churchgate" },
+];
 export const telLink = `tel:${site.phone.replace(/\s/g, "")}`;
 export const waLink = (text?: string) =>
   `https://wa.me/${site.whatsapp.replace(/\D/g, "")}${text ? `?text=${encodeURIComponent(text)}` : ""}`;
