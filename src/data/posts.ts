@@ -16,7 +16,7 @@ const RED = [
 ];
 const D = "2026-10-28";
 
-export const posts: Post[] = [
+const raw: Post[] = [
   {
     slug: "home-nurse-attendant-or-doctor-visit-mumbai",
     title: "Home nurse, attendant or doctor visit: which do you need?",
@@ -446,4 +446,12 @@ export const posts: Post[] = [
     related: ["home-nursing-mumbai", "elderly-care-at-home-mumbai", "home-healthcare-mumbai"],
   },
 ];
+const order = [
+  "how-a-doctor-home-visit-works-in-mumbai", "fever-in-older-adults-home-care-or-hospital", "blood-test-at-home-mumbai-preparation-and-reports",
+  "home-nurse-attendant-or-doctor-visit-mumbai", "parents-living-alone-in-mumbai-emergency-plan", "mumbai-monsoon-health-tips-older-adults",
+  "diabetes-care-at-home-older-adults-daily-routine", "hospital-discharge-checklist-home-care-mumbai", "post-surgery-care-at-home-first-two-weeks",
+  "iv-medicines-and-fluids-at-home-when-possible", "wound-dressing-at-home-signs-of-infection", "bedsore-prevention-bedridden-patient-home",
+  "foley-catheter-care-at-home-what-families-should-know", "ryles-tube-feeding-at-home-common-problems", "how-to-choose-a-home-nursing-service-in-mumbai",
+];
+export const posts: Post[] = [...raw].sort((a, b) => order.indexOf(a.slug) - order.indexOf(b.slug));
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
