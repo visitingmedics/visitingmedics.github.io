@@ -43,7 +43,7 @@ export default function Home() {
         </div>
         <div className="container overlap">
           <div className="card herotext">
-            <h1>Professional Healthcare<br />at Your Home</h1>
+            <h1>Doctor Home Visits &amp;<br />Healthcare at Home, Mumbai</h1>
             <p className="lead">Doctor home visits, home nursing, blood tests and medical procedures for patients across Mumbai.</p>
             <CtaButtons />
           </div>

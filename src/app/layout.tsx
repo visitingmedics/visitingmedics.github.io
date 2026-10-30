@@ -4,6 +4,7 @@ import "./globals.css";
 import { site } from "@/config/site";
 import { Header, Footer, StickyCta } from "@/components/Chrome";
 import { JsonLd } from "@/components/bits";
+import Analytics from "@/components/Analytics";
 import { services } from "@/data/services";
 import { areas as areaPages } from "@/app/areas/data";
 
@@ -14,7 +15,6 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: `${site.name} | Doctor Home Visit & Healthcare at Home in Mumbai`, template: `%s | ${site.name}` },
   description: "Healthcare at home in Mumbai: doctor home visits, home nursing, elderly care, wound dressing and home medical procedures.",
-  keywords: ["doctor home visit Mumbai", "home doctor Mumbai", "doctor at home Mumbai", "general physician home visit Mumbai", "home healthcare Mumbai", "home nursing Mumbai", "home nurse Mumbai", "elderly care at home Mumbai", "blood test at home Mumbai", "IV injection at home Mumbai", "wound dressing at home Mumbai", "catheter care at home Mumbai", "bedridden patient care Mumbai"],
   verification: process.env.NEXT_PUBLIC_GSC_VERIFICATION ? { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION } : undefined,
   robots: site.indexable ? { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 } } : { index: false, follow: false },
   openGraph: { siteName: site.name, type: "website", locale: "en_IN", images: [site.ogImage] },
@@ -29,6 +29,7 @@ const graph = {
       "@type": "MedicalBusiness", "@id": `${site.url}/#business`, name: site.name, url: site.url,
       logo: `${site.url}${site.logo.src}`, description: "Healthcare at home in Mumbai.",
       areaServed: [{ "@type": "City", name: "Mumbai" }, ...areaPages.map((a) => ({ "@type": "Place", name: `${a.name}, Mumbai` }))],
+      address: { "@type": "PostalAddress", addressLocality: "Mumbai", addressRegion: "Maharashtra", addressCountry: "IN" },
       openingHoursSpecification: { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" },
       ...(site.maps ? { hasMap: site.maps } : {}),
       ...(site.contactConfigured ? { telephone: site.phone } : {}),
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <Footer />
         <StickyCta />
+        <Analytics />
         <JsonLd data={graph} />
       </body>
     </html>
