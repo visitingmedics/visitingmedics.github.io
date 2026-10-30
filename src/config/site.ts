@@ -16,6 +16,8 @@ export const site = {
   heroAlt: "A doctor checking an elderly man’s blood pressure at home with his daughter nearby",
   ogImage: "/og-image.png", // add a 1200x630 image to /public
   // Google Business Profile link (used in the footer and in structured data).
+  // Google Analytics 4 measurement ID, for example "G-XXXXXXXXXX". Leave empty to keep analytics off.
+  gaId: env.NEXT_PUBLIC_GA_ID ?? "",
   maps: env.NEXT_PUBLIC_MAPS ?? "https://maps.app.goo.gl/BGryvzfmyLTMj6Ah9",
   socials: {
     Instagram: env.NEXT_PUBLIC_INSTAGRAM ?? "https://www.instagram.com/visitingmedics/",
