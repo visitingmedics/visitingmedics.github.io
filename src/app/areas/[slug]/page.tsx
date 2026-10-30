@@ -12,8 +12,8 @@ const svcLink: Record<string, string> = {
   "Doctor home visit": "/doctor-home-visit-mumbai", "Home nursing": "/home-nursing-mumbai", "Elderly care": "/elderly-care-at-home-mumbai",
   "Wound dressing": "/wound-dressing-at-home-mumbai", "IV injection & cannulation": "/iv-injection-at-home-mumbai",
   "Bedridden patient care": "/bedridden-patient-care-mumbai", "Ryle's tube & Foley catheter care": "/catheter-care-at-home-mumbai",
-  "Medication administration": "/home-medical-procedures-mumbai", "Diabetic care": "/home-healthcare-mumbai",
-  "Palliative care": "/home-healthcare-mumbai", "Blood tests via partner lab (home sample collection)": "/blood-test-at-home-mumbai",
+  "Medication administration": "/home-medical-procedures-mumbai", "Diabetic care": "/diabetic-care-at-home-mumbai",
+  "Palliative care": "/palliative-care-at-home-mumbai", "Blood tests via partner lab (home sample collection)": "/blood-test-at-home-mumbai",
 };
 const guideSlugs = ["how-a-doctor-home-visit-works-in-mumbai", "fever-in-older-adults-home-care-or-hospital", "blood-test-at-home-mumbai-preparation-and-reports"];
 
@@ -48,9 +48,9 @@ export default async function AreaPage({ params }: P) {
   ];
   const ld = [
     {
-      "@context": "https://schema.org", "@type": "MedicalBusiness",
-      name: "Visiting Medics", url: SITE, telephone: `+91${PHONE}`,
-      areaServed: { "@type": "Place", name: `${a.name}, Mumbai` },
+      "@context": "https://schema.org", "@type": "Service",
+      name: `Doctor home visit and home healthcare in ${a.name}`, serviceType: "Home healthcare",
+      provider: { "@id": `${SITE}/#business` }, areaServed: { "@type": "Place", name: `${a.name}, Mumbai` },
     },
     {
       "@context": "https://schema.org", "@type": "FAQPage",
