@@ -12,7 +12,7 @@ const msg = "Hello Visiting Medics, I would like to know more about a care plan.
 
 const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 // Renders text with [label](/path) inline links.
-function Rich({ t }: { t: string }) {
+export function Rich({ t }: { t: string }) {
   const parts = t.split(/(\[[^\]]+\]\(\/[^)\s]*\))/g);
   return (
     <>

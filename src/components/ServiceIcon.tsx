@@ -12,6 +12,8 @@ const P: Record<string, ReactNode> = {
   "home-medical-procedures-mumbai": <><rect x="3" y="8" width="18" height="12" rx="2" /><path d="M9 8V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M12 11.5v6M9 14.5h6" /></>,
   "catheter-care-at-home-mumbai": <><circle cx="18.5" cy="5.5" r="2" /><path d="M5 20c0-6 3-6.5 7-6.5s6.5-.5 6.5-6" /></>,
   "ryles-tube-care-at-home-mumbai": <><circle cx="6" cy="4" r="1.6" /><path d="M6 5.6V11a4 4 0 0 0 4 4h4a4 4 0 0 1 4 4v1.5" /></>,
+  "diabetic-care-at-home-mumbai": <path d="M12 3c3.2 4 6 7 6 11a6 6 0 0 1-12 0c0-4 2.8-7 6-11z" />,
+  "palliative-care-at-home-mumbai": <path d="M12 20.5s-8-4.8-8-10.8A4.4 4.4 0 0 1 12 7.2a4.4 4.4 0 0 1 8 2.5c0 6-8 10.8-8 10.8z" />,
 };
 export default function ServiceIcon({ slug }: { slug: string }) {
   if (!P[slug]) return null;

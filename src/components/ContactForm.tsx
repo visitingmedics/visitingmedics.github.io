@@ -127,6 +127,8 @@ export default function ContactForm() {
         Request a Home Visit
       </button>
 
+      <p className="meta">By sending this you agree that we may contact you about your enquiry. See our <a href="/privacy-policy">Privacy Policy</a>.</p>
+
       {sent && (
         <p role="status">
           Your request opened in WhatsApp. Please press send to share it with us.
