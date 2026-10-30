@@ -101,7 +101,7 @@ const raw: Post[] = [
       { q: "Can bedsores heal at home?", a: "Early, mild pressure injuries can improve at home when pressure is relieved and the skin is cared for. Deeper wounds need regular dressings and medical review." },
       { q: "Are special mattresses necessary?", a: "They are often helpful for patients who stay in bed for long periods. Ask the doctor which type suits the patient." },
     ],
-    related: ["bedridden-patient-care-mumbai", "wound-dressing-at-home-mumbai", "home-nursing-mumbai"],
+    related: ["bedridden-patient-care-mumbai", "palliative-care-at-home-mumbai", "wound-dressing-at-home-mumbai"],
   },
   {
     slug: "fever-in-older-adults-home-care-or-hospital",
@@ -269,7 +269,7 @@ const raw: Post[] = [
     faqs: [
       { q: "Can I drink water before a fasting test?", a: "Yes. Plain water is fine and usually helps. Avoid tea, coffee, milk and juice during the fast." },
       { q: "Do I need a prescription for a blood test?", a: "A doctor’s advice helps choose the right tests. If you are unsure which tests you need, ask a doctor first." },
-      { q: "Is a home sample as reliable as a lab sample?", a: "Yes, when the sample is collected correctly and handled and transported properly to an accredited laboratory." },
+      { q: "Is a home sample as reliable as a lab sample?", a: "Yes, when the sample is collected correctly and handled and transported properly to the laboratory." },
     ],
     related: ["blood-test-at-home-mumbai", "doctor-home-visit-mumbai", "elderly-care-at-home-mumbai"],
   },
@@ -414,7 +414,7 @@ const raw: Post[] = [
       { q: "How often should an older adult with diabetes be checked?", a: "It depends on treatment and health. The doctor decides how often to check sugar and which tests to repeat." },
       { q: "Can diabetes care be managed at home?", a: "Much of the daily routine can be, with regular medical review. Emergencies such as very low sugar that does not improve need hospital care." },
     ],
-    related: ["elderly-care-at-home-mumbai", "blood-test-at-home-mumbai", "wound-dressing-at-home-mumbai"],
+    related: ["diabetic-care-at-home-mumbai", "elderly-care-at-home-mumbai", "blood-test-at-home-mumbai"],
   },
   {
     slug: "how-to-choose-a-home-nursing-service-in-mumbai",
