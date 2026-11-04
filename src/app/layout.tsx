@@ -27,7 +27,8 @@ const graph = {
     { "@type": "WebSite", "@id": `${site.url}/#website`, name: site.name, url: site.url },
     {
       "@type": "MedicalBusiness", "@id": `${site.url}/#business`, name: site.name, url: site.url,
-      logo: `${site.url}${site.logo.src}`, description: "Healthcare at home in Mumbai.",
+      logo: `${site.url}${site.logo.src}`,
+      description: "Visiting Medics provides healthcare at home in Mumbai: doctor home visits, home nursing, IV injections, wound dressing, elderly care, palliative care and home blood sample collection across the Western line.",
       areaServed: [{ "@type": "City", name: "Mumbai" }, ...areaPages.map((a) => ({ "@type": "Place", name: `${a.name}, Mumbai` }))],
       address: { "@type": "PostalAddress", addressLocality: "Mumbai", addressRegion: "Maharashtra", addressCountry: "IN" },
       openingHoursSpecification: { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" },
