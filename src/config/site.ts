@@ -15,10 +15,14 @@ export const site = {
   // Must describe your hero photo (public/images/hero.jpg) accurately.
   heroAlt: "A doctor checking an elderly man’s blood pressure at home with his daughter nearby",
   ogImage: "/og-image.png", // add a 1200x630 image to /public
-  // Google Business Profile link (used in the footer and in structured data).
   // Google Analytics 4 measurement ID, for example "G-XXXXXXXXXX". Leave empty to keep analytics off.
   gaId: env.NEXT_PUBLIC_GA_ID ?? "",
-  maps: env.NEXT_PUBLIC_MAPS ?? "https://maps.app.goo.gl/BGryvzfmyLTMj6Ah9",
+  // Google Business Profile link (used in the footer and in structured data).
+  maps:
+    env.NEXT_PUBLIC_MAPS ??
+    "https://www.google.com/maps/search/?api=1&query=Visiting+Medics+Healthcare+at+home+Mumbai",
+  // Google review link, for "leave a review" buttons and review requests.
+  reviewUrl: env.NEXT_PUBLIC_REVIEW_URL ?? "https://g.page/r/CYCB90c-WkoaEBM/review",
   socials: {
     Instagram: env.NEXT_PUBLIC_INSTAGRAM ?? "https://www.instagram.com/visitingmedics/",
     Facebook: env.NEXT_PUBLIC_FACEBOOK ?? "https://www.facebook.com/share/19dLVPrRex/",
