@@ -56,6 +56,17 @@ export default function Home() {
       </section>
 
       <section className="section"><div className="container">
+        <h2>What is Visiting Medics?</h2>
+        <p className="lead">
+          Visiting Medics is a healthcare-at-home service in Mumbai, available 24 hours. We arrange
+          doctor home visits, home nursing, blood tests at home and procedures such as IV injection,
+          wound dressing and catheter care, from Colaba and Churchgate to Borivali and Dahisar.
+          Charges depend on the service and area, and we confirm them before the visit.{" "}
+          <Link href="/areas">See all areas</Link>
+        </p>
+      </div></section>
+
+      <section className="section"><div className="container">
         <h2>Home healthcare in Mumbai, done properly</h2>
         <p className="lead">Visiting Medics helps patients and families receive medical and nursing care at home, from a first doctor consultation to ongoing support during recovery.</p>
         <div className="plain">{why.map(([t, d, h]) => <Link key={t} href={h}><h3>{t}</h3><p>{d}</p></Link>)}</div>
