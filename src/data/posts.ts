@@ -20,7 +20,7 @@ const raw: Post[] = [
   {
     slug: "home-nurse-attendant-or-doctor-visit-mumbai",
     title: "Home nurse, attendant or doctor visit: which do you need?",
-    seoTitle: "Home Nurse vs Attendant vs Doctor Visit",
+    seoTitle: "Home Nurse vs Attendant vs Doctor, Mumbai",
     desc: "Not sure whether to book a doctor, a home nurse or an attendant in Mumbai? See what each one does, how to decide and when a hospital is the better choice.",
     date: D, tag: "Care guide", image: "home-healthcare-mumbai",
     alt: "A doctor, a nurse and family members around an older patient resting at home",
@@ -49,7 +49,7 @@ const raw: Post[] = [
   {
     slug: "hospital-discharge-checklist-home-care-mumbai",
     title: "Hospital discharge checklist: what to prepare at home",
-    seoTitle: "Hospital Discharge Checklist for Home Care",
+    seoTitle: "Hospital Discharge Checklist: Home Care Mumbai",
     desc: "A practical checklist for bringing a patient home from a Mumbai hospital: what to ask at discharge, how to prepare the room and medicines, and the first days.",
     date: D, tag: "Care guide", image: "home-medical-procedures-mumbai",
     alt: "Sterile supplies laid out on a tray, ready for a nurse’s home visit",
@@ -78,7 +78,7 @@ const raw: Post[] = [
   {
     slug: "bedsore-prevention-bedridden-patient-home",
     title: "Bedridden parent: how to prevent bedsores",
-    seoTitle: "How to Prevent Bedsores at Home",
+    seoTitle: "How to Prevent Bedsores at Home in Mumbai",
     desc: "How to prevent bedsores in a bedridden patient at home: turning schedule, skin care, nutrition, early warning signs and when to call a doctor or nurse.",
     date: D, tag: "Care guide", image: "bedridden-patient-care-mumbai",
     alt: "A nurse adjusting the pillows of an older man resting in bed at home",
@@ -106,7 +106,7 @@ const raw: Post[] = [
   {
     slug: "fever-in-older-adults-home-care-or-hospital",
     title: "Fever in older adults: home care or hospital?",
-    seoTitle: "Fever in Older Adults: Home or Hospital?",
+    seoTitle: "Elderly Fever: Home or Hospital in Mumbai",
     desc: "How to judge a fever in an elderly parent: what to check, when home care is reasonable and the warning signs that mean you should go to a hospital in Mumbai.",
     date: D, tag: "Care guide", image: "doctor-home-visit-mumbai",
     alt: "A doctor examining an older man at home with a stethoscope",
@@ -135,7 +135,7 @@ const raw: Post[] = [
   {
     slug: "foley-catheter-care-at-home-what-families-should-know",
     title: "Foley catheter care at home: what families should know",
-    seoTitle: "Foley Catheter Care at Home: A Guide",
+    seoTitle: "Foley Catheter Care at Home in Mumbai",
     desc: "A family guide to Foley (urinary) catheter care at home: daily hygiene, bag position, warning signs of infection and what you should never do.",
     date: D, tag: "Care guide", image: "catheter-care-at-home-mumbai",
     alt: "A nurse caring for a patient in bed at home with a drainage bag beside the bed",
@@ -163,7 +163,7 @@ const raw: Post[] = [
   {
     slug: "ryles-tube-feeding-at-home-common-problems",
     title: "Ryle’s tube feeding at home: common problems and when to call",
-    seoTitle: "Ryle’s Tube Feeding at Home: Safety Guide",
+    seoTitle: "Ryle’s Tube Feeding at Home in Mumbai",
     desc: "A family guide to Ryle’s tube (nasogastric) feeding at home: safe positioning, common problems and the warning signs that need urgent help.",
     date: D, tag: "Care guide", image: "ryles-tube-care-at-home-mumbai",
     alt: "A nurse preparing a feed with a syringe for a patient resting in bed at home",
@@ -191,7 +191,7 @@ const raw: Post[] = [
   {
     slug: "wound-dressing-at-home-signs-of-infection",
     title: "Wound dressing at home: signs of infection to watch for",
-    seoTitle: "Wound Dressing at Home: Infection Signs",
+    seoTitle: "Wound Dressing at Home, Mumbai: Infection Signs",
     desc: "What a proper wound dressing at home involves, the early signs of infection, which home remedies to avoid and when a wound needs a doctor.",
     date: D, tag: "Care guide", image: "wound-dressing-at-home-mumbai",
     alt: "A nurse applying a dressing to a man’s forearm at home",
@@ -220,7 +220,7 @@ const raw: Post[] = [
   {
     slug: "iv-medicines-and-fluids-at-home-when-possible",
     title: "IV medicines and fluids at home: when it is possible, and when it is not",
-    seoTitle: "IV Treatment at Home: When It Is Possible",
+    seoTitle: "IV Treatment at Home in Mumbai: When Possible",
     desc: "When IV medicines or fluids can safely be given at home in Mumbai, when hospital care is needed instead, and what to keep ready before a nurse visits.",
     date: D, tag: "Care guide", image: "iv-injection-at-home-mumbai",
     alt: "A nurse setting up an IV drip for an older man resting in bed at home",
@@ -304,7 +304,7 @@ const raw: Post[] = [
   {
     slug: "parents-living-alone-in-mumbai-emergency-plan",
     title: "Parents living alone in Mumbai: a simple emergency plan",
-    seoTitle: "Emergency Plan for Parents Living Alone",
+    seoTitle: "Emergency Plan for Parents Alone in Mumbai",
     desc: "A one-page emergency plan for families whose elderly parents live alone in Mumbai: key numbers, medicine list, home safety changes and daily routines.",
     date: D, tag: "Care guide", image: "elderly-care-at-home-mumbai",
     alt: "A nurse helping an older woman walk with a walker in her living room",
@@ -333,7 +333,7 @@ const raw: Post[] = [
   {
     slug: "mumbai-monsoon-health-tips-older-adults",
     title: "Mumbai monsoon and after: keeping older adults healthy",
-    seoTitle: "Monsoon Health Tips for Older Adults",
+    seoTitle: "Mumbai Monsoon Health Tips for Older Adults",
     desc: "Common rainy-season health problems for older adults in Mumbai, how to prevent them, the signs of dehydration and the symptoms that need a doctor.",
     date: D, tag: "Care guide", image: "home-nursing-mumbai",
     alt: "A nurse sitting with an older woman at home",
@@ -361,7 +361,7 @@ const raw: Post[] = [
   {
     slug: "post-surgery-care-at-home-first-two-weeks",
     title: "Post-surgery care at home: the first two weeks",
-    seoTitle: "Post-Surgery Care at Home: First Two Weeks",
+    seoTitle: "Post-Surgery Care at Home in Mumbai: 2 Weeks",
     desc: "How to care for a patient at home after surgery in Mumbai: wound care, pain control, movement, food, warning signs and when to call the surgeon.",
     date: D, tag: "Care guide", image: "wound-dressing-at-home-mumbai",
     alt: "A nurse applying a dressing to a man’s forearm at home",
@@ -390,7 +390,7 @@ const raw: Post[] = [
   {
     slug: "diabetes-care-at-home-older-adults-daily-routine",
     title: "Diabetes care at home for older adults: a daily routine",
-    seoTitle: "Diabetes Care at Home for Older Adults",
+    seoTitle: "Diabetes Care at Home for Elders in Mumbai",
     desc: "A practical daily routine for older adults with diabetes: medicines, meals, home sugar checks, low sugar, foot care and when to call a doctor.",
     date: D, tag: "Care guide", image: "blood-test-at-home-mumbai",
     alt: "A nurse in a mask and gloves preparing to collect a blood sample at home",
@@ -419,7 +419,7 @@ const raw: Post[] = [
   {
     slug: "how-to-choose-a-home-nursing-service-in-mumbai",
     title: "How to choose a home nursing service in Mumbai",
-    seoTitle: "How to Choose a Home Nursing Service",
+    seoTitle: "How to Choose a Home Nursing Service in Mumbai",
     desc: "Questions to ask before you book a home nursing service in Mumbai: qualifications, doctor oversight, hygiene, communication and warning signs of a poor service.",
     date: D, tag: "Care guide", image: "home-nursing-mumbai",
     alt: "A nurse sitting with an older woman at home",
@@ -448,7 +448,7 @@ const raw: Post[] = [
   {
     slug: "palliative-care-at-home-when-to-start-mumbai",
     title: "Palliative care at home: when to start and what it includes",
-    seoTitle: "Palliative Care at Home: When to Start",
+    seoTitle: "Palliative Care at Home Mumbai: When to Start",
     desc: "What palliative care at home means, when families should consider it, what a home care team can do and when a hospital is the safer choice in Mumbai.",
     date: "2026-11-10", tag: "Care guide", image: "palliative-care-at-home-mumbai",
     alt: "A nurse sitting beside an older woman resting comfortably at home",
@@ -476,7 +476,7 @@ const raw: Post[] = [
   {
     slug: "dementia-care-at-home-older-adults-mumbai",
     title: "Dementia care at home: a practical guide for families",
-    seoTitle: "Dementia Care at Home: A Family Guide",
+    seoTitle: "Dementia Care at Home in Mumbai: Family Guide",
     desc: "A practical guide for families caring for a parent with dementia at home in Mumbai: daily routine, safety, communication and when to get medical help.",
     date: "2026-11-10", tag: "Care guide", image: "elderly-care-at-home-mumbai",
     alt: "A nurse chatting with an older man in a bright living room at home",
@@ -504,7 +504,7 @@ const raw: Post[] = [
   {
     slug: "fall-prevention-older-adults-home-mumbai",
     title: "Preventing falls in older adults at home",
-    seoTitle: "Fall Prevention for Older Adults at Home",
+    seoTitle: "Fall Prevention for Older Adults in Mumbai",
     desc: "How to reduce the risk of falls for an older parent at home in Mumbai: simple home changes, daily habits and what to do after a fall.",
     date: "2026-11-10", tag: "Care guide", image: "elderly-care-at-home-mumbai",
     alt: "A nurse helping an older woman walk safely with a walker in her living room",
@@ -531,7 +531,7 @@ const raw: Post[] = [
   {
     slug: "catheter-and-ryles-tube-change-how-often-mumbai",
     title: "How often are catheters and Ryle’s tubes changed?",
-    seoTitle: "Catheter and Ryle’s Tube Change: How Often?",
+    seoTitle: "Catheter & Ryle’s Tube Changes at Home, Mumbai",
     desc: "Why there is no single schedule for changing a urinary catheter or Ryle’s tube, which signs mean a change is needed sooner, and why a nurse should do it.",
     date: "2026-11-10", tag: "Care guide", image: "catheter-care-at-home-mumbai",
     alt: "A nurse preparing sterile supplies for a catheter change at a patient’s bedside",
@@ -559,7 +559,7 @@ const raw: Post[] = [
   {
     slug: "injection-or-iv-at-home-prescription-needed-mumbai",
     title: "Injection or IV at home: do you need a prescription?",
-    seoTitle: "Injection or IV at Home: Prescription Needed?",
+    seoTitle: "Injection or IV at Home Mumbai: Prescription?",
     desc: "Do you need a prescription for an injection or IV medicine at home in Mumbai? What to keep ready, what a nurse can and cannot do, and when hospital care is safer.",
     date: "2026-11-10", tag: "Care guide", image: "iv-injection-at-home-mumbai",
     alt: "A nurse preparing an injection beside a patient resting at home",
@@ -587,7 +587,7 @@ const raw: Post[] = [
   {
     slug: "doctor-home-visit-or-hospital-which-one-mumbai",
     title: "Doctor home visit or hospital: how to decide",
-    seoTitle: "Doctor Home Visit or Hospital? How to Decide",
+    seoTitle: "Doctor Home Visit or Hospital in Mumbai?",
     desc: "When is a doctor home visit enough, and when should you go to a hospital? A clear guide for families in Mumbai, with the warning signs that mean do not wait.",
     date: "2026-11-10", tag: "Care guide", image: "doctor-home-visit-mumbai",
     alt: "A doctor speaking with a patient and his daughter at home",
@@ -642,7 +642,7 @@ const raw: Post[] = [
   {
     slug: "bedridden-patient-daily-care-routine-at-home",
     title: "Bedridden patient: a daily care routine at home",
-    seoTitle: "Daily Care Routine for a Bedridden Patient",
+    seoTitle: "Bedridden Patient Care Routine at Home, Mumbai",
     desc: "A simple daily care routine for a bedridden patient at home: washing, feeding, turning, skin and mouth care, toileting, activity and looking after the caregiver.",
     date: "2026-11-10", tag: "Care guide", image: "bedridden-patient-care-mumbai",
     alt: "A nurse and a family member adjusting a patient’s pillows in bed at home",
@@ -671,7 +671,7 @@ const raw: Post[] = [
   {
     slug: "blood-tests-for-elderly-parents-at-home-mumbai",
     title: "Routine blood tests for elderly parents: what to ask your doctor",
-    seoTitle: "Routine Blood Tests for Elderly Parents at Home",
+    seoTitle: "Routine Blood Tests for Elderly Parents, Mumbai",
     desc: "Which blood tests doctors commonly advise for older adults, how to prepare, how home sample collection works in Mumbai and how to keep reports organised.",
     date: "2026-11-10", tag: "Care guide", image: "blood-test-at-home-mumbai",
     alt: "A nurse taking a blood sample from an older woman’s arm at home",
